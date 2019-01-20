@@ -9,6 +9,7 @@ import { CarteiraService, Papel } from './carteira.service';
 export class CarteiraComponent implements OnInit {
     
     public carteira;
+    public isCollapsed = true;
 
     constructor(private service : CarteiraService) {
     }
